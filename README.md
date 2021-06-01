@@ -7,6 +7,8 @@ The board I designed exposes the I2C address pin so more than one of these senso
 
 The sketch places the MC3635 in Sniff mode at 7 Hz (configurable) and triggers an interrupt to the Ladybug whenever the motion threshold and hysteresis conditions are met (also configurable). 
 
-I measured the power usage of the MC3635 at 0.3 +/- 0.1 uA in Sniff mode, pretty much what the [data sheet](https://mcubemems.com/wp-content/uploads/2019/11/MC3635-Datasheet-APS-048-0044v1.7.pdf) claims. This ultra-low-power, coupled with the low BOM cost and availability of the MC3635, makes it a promising candidate as a wake-on-motion watchdog for wearable devices.
+I measured the power usage of the MC3635 at 0.3 +/- 0.1 uA in Sniff mode, pretty much what the [data sheet](https://mcubemems.com/wp-content/uploads/2019/11/MC3635-Datasheet-APS-048-0044v1.7.pdf) claims. 
+
+This ultra-low-power, coupled with the low BOM cost and availability of the MC3635, makes it a promising candidate as a wake-on-motion watchdog for wearable devices.
 
 ![MC3635](https://user-images.githubusercontent.com/6698410/120250955-c1c60480-c234-11eb-87ee-be98a667afe7.jpg)
